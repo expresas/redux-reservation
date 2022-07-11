@@ -16,7 +16,7 @@ const UserProfilePage = () => {
   }
 
   return (
-    <div>
+    <div className='profile'>
       <h1>{user.email}</h1>
       <div><img src={user.image} alt="" /></div>
       <div>
@@ -25,7 +25,6 @@ const UserProfilePage = () => {
       <div>
         <button onClick={changeUserImage}>Change profile photo</button>
       </div>
-
     </div>
   )
 }

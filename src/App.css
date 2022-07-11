@@ -42,3 +42,7 @@
 .showShortUserInfo img {
   width: 100%;
 }
+
+.profile img {
+  width: 300px;
+}
