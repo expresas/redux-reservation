@@ -10,15 +10,12 @@ export const userSlice = createSlice ({
     },
     reducers: {
         createUser: (state, action) => {
-            // state.value.text = action.payload
             state.value.users.push(action.payload)
         },
         setLoggedUser: (state, action) => {
-            // state.value.text = action.payload
             state.value.userLogged = action.payload
         },
         setNewImage: (state, action) => {
-            // state.value.text = action.payload
             state.value.userLogged.image = action.payload
         },
     }
