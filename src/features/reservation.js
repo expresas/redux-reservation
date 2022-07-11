@@ -5,7 +5,6 @@ export const userSlice = createSlice ({
     initialState: {
         value: {
             reservations: Array(30).fill(0),
-            userLogged: '',
         }
     },
     reducers: {
